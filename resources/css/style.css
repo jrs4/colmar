@@ -30,7 +30,7 @@ body{
   align-items: flex-start;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
   .container{
       flex-direction: column;
   }
@@ -145,7 +145,7 @@ header{
   display: none;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
   .navMobile{
     display: flex;
     justify-content: space-around;
@@ -192,7 +192,7 @@ header{
   width: 100%;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
     .banner-box{
       padding: 0 16px ;
     }
@@ -235,7 +235,7 @@ header{
   background-color: lightgray;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
   .info-box{
     flex-direction: column;
   }
@@ -288,7 +288,7 @@ header{
   display: none;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
   .coursesMain{
     background-color: white;
     border-top: 1px solid lightgray;
@@ -315,7 +315,7 @@ header{
   margin-bottom: 24px;
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
   .thesis{
     border-top: 1px solid lightgray;
   }
@@ -339,7 +339,7 @@ footer{
   }
 }
 
-@media only screen and (max-width:767px){
+@media only screen and (max-width:767px), (orientation: portrait){
   .no-mobile{
     display: none;
   }
