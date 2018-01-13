@@ -30,7 +30,7 @@ body{
   align-items: flex-start;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
   .container{
       flex-direction: column;
   }
@@ -145,7 +145,7 @@ header{
   display: none;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
   .navMobile{
     display: flex;
     justify-content: space-around;
@@ -192,7 +192,7 @@ header{
   width: 100%;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
     .banner-box{
       padding: 0 16px ;
     }
@@ -235,7 +235,7 @@ header{
   background-color: lightgray;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
   .info-box{
     flex-direction: column;
   }
@@ -288,7 +288,7 @@ header{
   display: none;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
   .coursesMain{
     background-color: white;
     border-top: 1px solid lightgray;
@@ -315,7 +315,7 @@ header{
   margin-bottom: 24px;
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
   .thesis{
     border-top: 1px solid lightgray;
   }
@@ -333,13 +333,13 @@ footer{
   justify-content: space-between;
 }
 
-@media only screen and (min-width:601px){
+@media only screen and (min-width:768px){
   .mobile{
     display: none;
   }
 }
 
-@media only screen and (max-width:600px){
+@media only screen and (max-width:767px){
   .no-mobile{
     display: none;
   }
